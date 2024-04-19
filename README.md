@@ -1,5 +1,5 @@
 # Resume Chatbot
-Evaluating the effectiveness of pretrained BERT models versus our own trained model on generating embeddings which deliver contextually relevant results when compared with an embedded user query. <br />
+Evaluating the effectiveness of pretrained BERT models versus our own trained model on generating embeddings which deliver contextually relevant results when compared with an embedded user query. <br />  <br />
 To generate embeddings, utilize the following command: <br />
 `python embedder.py [path-to-data-folder] [name-of-output-file].csv` <br />
 For example: `python embedder.py data/ACCOUNTANT accountant-embeddings.csv` <br /> <br />
