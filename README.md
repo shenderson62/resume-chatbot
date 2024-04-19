@@ -1,23 +1,25 @@
 # Resume Chatbot
-Evaluating the effectiveness of pretrained BERT models versus our own trained model on generating embeddings which deliver contextually relevant results when compared with an embedded user query.
-To generate embeddings, utilize the following command:
-`python embedder.py [path-to-data-folder] [name-of-output-file].csv`
-For example: `python embedder.py data/ACCOUNTANT accountant-embeddings.csv`
+Evaluating the effectiveness of pretrained BERT models versus our own trained model on generating embeddings which deliver contextually relevant results when compared with an embedded user query. <br />
+To generate embeddings, utilize the following command: <br />
+`python embedder.py [path-to-data-folder] [name-of-output-file].csv` <br />
+For example: `python embedder.py data/ACCOUNTANT accountant-embeddings.csv` <br /> <br />
 
-Project structure represented as file tree:
+Project structure represented as file tree: <br />
 
-project_root/
+project_root/ <br />
 │
-├── data/
-│   ├── ACCOUNTANT/
-│   ├── ADVOCATE/
-│   │   ... (other directories for different professions)
-│   └── TEACHER/
-│
-├── bert-base-uncased-embeddings/
-│   ├── accountant-embeddings.csv
-|   ├── advocate-embeddings.csv
-│   │   ... (other directories for embeddings corresponding to other professions)
-|   └── teacher-embeddings.csv
-│
-└── embedder.py
+├── data/ <br />
+│   ├── ACCOUNTANT/ <br />
+│   ├── ADVOCATE/ <br />
+│   │   ... (other directories for different professions) <br />
+│   └── TEACHER/ <br />
+│ <br />
+├── embeddings/ <br />
+│   ├── bert-base-uncased-embeddings/ <br />
+│   │   ├── accountant-embeddings.csv <br />
+│   │   ├── advocate-embeddings.csv <br />
+│   │   │   ... (other CSV files for other professions) <br />
+│   │   └── teacher-embeddings.csv <br />
+│ <br />
+└── embedder.py <br />
+
