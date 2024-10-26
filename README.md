@@ -6,6 +6,7 @@ To generate embeddings, utilize the following command: <br />
 For example: `python embedder.py data/ACCOUNTANT accountant-embeddings.csv` <br /> <br />
 
 Link to Kaggle Resume dataset used: https://www.kaggle.com/datasets/snehaanbhawal/resume-dataset?resource=download <br /> <br />
+![project-diagram](https://github.com/user-attachments/assets/0366e54c-a542-4b18-bdbd-17ce6a533199)
 
 Project structure represented as file tree: <br />
 
