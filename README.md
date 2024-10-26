@@ -1,4 +1,4 @@
-# Resume Chatbot
+# Relevant Resume Retrieval Using NLP Approaches
 Assessing basic Natural Language Processing (NLP) approaches towards building
 resume screening pipelines for relevant candidate recruitment <br />  <br />
 To generate embeddings, utilize the following command: <br />
